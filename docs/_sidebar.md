@@ -3,23 +3,23 @@
   - thesis on quality
   - QA Role (quality facilitator)
   - QA vision
+  - Skills
 
 - Technology watch
 
-  - QA Evangelist
-  - How they test
+  - [QA Evangelist](qaEvangelist.md)
+  - [How they test](howTheyTest.md)
   - [Books](books.md)
-  - QA git repo
+  - [QA git repo](gitRepo.md)
+  - [Mooc & Podcast](mooc.md)
 
 - Agility
 
   - [For team](agilityTeam.md)
-  - For personal use
-    - Getting things Done
-    - TimeBoxing
-    - SHU HA RI
+  - [For personal use](agilityPerso.md)
 
 - Technical skill
+  selector - flaky test - visual regression testing
 
   - Bug report
   - Tester 2.0
@@ -33,26 +33,25 @@
   - Monitoring
     - Observability
   - DEV OPS
+  - KPI
 
 - Automation
 
-  - framework
-    - Nightwatch
-    - Cypress
-    - Codecept
-  - Notion
-    - selector
-    - flaky test
-    - visual regression testing
+  - [Framework](framework.md)
+  - [Notion](notionE2e.md)
 
 - Miscellaneous
-  - Environement
+  - [Environement](env.md)
     - Linux
     - Docker
-  - Text Editor/IDE
-  - GIT
-  - Language
+  - [Text Editor/IDE](ide.md)
+  - [GIT](git.md)
+  - Webb
+    - Fundamentals
     - DOM
+    - Error
+    - Dev Tool
+  - Language
     - HTTP
     - CSS
     - JAVASCRIPT
@@ -60,4 +59,3 @@
   - Recrutement
     - CV
     - Interview
-  - Interview

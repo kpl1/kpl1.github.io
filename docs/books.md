@@ -1,10 +1,12 @@
 # Top 10
 
-- Cucumber Book Behaviour driven development
-- Agile testing
+> My list of the 10 books to know.
+
+- [The Cucumber Book](https://www.amazon.fr/Cucumber-Book-Behaviour-Driven-Development-Programmers/dp/1934356808)
+- [Agile Testing](https://www.amazon.fr/dp/B001QL5N4K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 - More agile testing, crispin & gregory
-- Specification by exemple ADZIC
-- Lessons learnd in software testing bach
+- [Specification by exemple, Gojko Adzic](https://www.amazon.com/Specification-Example-Gojko-Adzic/dp/1617290084)
+- [Lessons learned in software testing, James Bach](https://www.amazon.com/Lessons-Learned-Software-Testing-Approach/dp/0471081124/ref=sr_1_1?s=books&ie=UTF8&qid=1425578640&sr=1-1&keywords=lessons+learned+in+software+testing)
 - leading quality, Cummings-john & peer
 - perfect software and other illusions about testing, weindberg
 - Explore It Hendrickson
@@ -13,10 +15,8 @@
 
 # Other
 
-> An awesome project.
-
 - [DearEvilTester](https://leanpub.com/DearEvilTester)
-- git ebooks https://git-scm.com/book/en/v2
+- [Git ebooks](https://git-scm.com/book/en/v2)
 - Linux comand line
 - Testing and Quality Assurance for Component based Software
 - Beautiful testing
@@ -37,6 +37,6 @@
 - Jez Humble, and David Farley, Continuous Delivery:
 - Gene Kim,, Jez Humble, Patrick Debois, John Willis, The DevOps Handbook,
 - Steve Smith, Measuring Continuous Delivery , LeanPub, 2019
-- Sanjeev Sharma, DevOps for Dummies,
-- The science of DEVOPS
-- Leading Quality: How Great Leaders Deliver High-Quality Software and Accelerate Growth
+- [DevOps for Dummies, Sanjeev Sharma](https://www.goodreads.com/book/show/23295849-devops-for-dummies)
+- [The science of DEVOPS](https://www.amazon.fr/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM)
+- [Leading Quality](https://www.amazon.com/Leading-Quality-High-Quality-Software-Accelerate-ebook/dp/B07W16KG12/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1573662372&sr=1-1)
