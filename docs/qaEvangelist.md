@@ -2,7 +2,7 @@
 
 site & twitter
 
-- James Bach, https://www.satisfice.com/blog
+- James Bach: [Site](https://www.satisfice.com/blog), [Twitter]()
 - Ingo Philipp
 - Alan page, https://angryweasel.com/blog/
 - Michael Bolton, https://www.developsense.com/courses.html

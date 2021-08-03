@@ -1,11 +1,4 @@
-- Quality
-
-  - thesis on quality
-  - QA Role (quality facilitator)
-  - QA vision
-  - Skills
-
-- Technology watch
+- QA publicity
 
   - [QA Evangelist](qaEvangelist.md)
   - [How they test](howTheyTest.md)
@@ -13,13 +6,12 @@
   - [QA git repo](gitRepo.md)
   - [Mooc & Podcast](mooc.md)
 
-- Agility
+- Agility, Pragmatism and Team spirit
 
-  - [For team](agilityTeam.md)
-  - [For personal use](agilityPerso.md)
+  - [Agility](agility.md)
+  - [Process](process.md)
 
-- Technical skill
-  selector - flaky test - visual regression testing
+- QA Technical skill expertise
 
   - Bug report
   - Tester 2.0
@@ -28,17 +20,13 @@
   - Exploratory testing
     - Oracle
     - Heuristic
+  - [Front Test Automation](fronte2eautomation.md)
   - Api testing
   - Testability
   - Monitoring
     - Observability
   - DEV OPS
   - KPI
-
-- Automation
-
-  - [Framework](framework.md)
-  - [Notion](notionE2e.md)
 
 - Miscellaneous
   - [Environement](env.md)

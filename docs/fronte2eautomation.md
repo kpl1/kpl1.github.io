@@ -1,3 +1,13 @@
+# Selector
+
+# Flaky test
+
+# Visual regression testing
+
+# Assert
+
+# Framework
+
 # Nightwatch
 
 # Cypress

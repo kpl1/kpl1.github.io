@@ -1,21 +1,22 @@
 # GIT
 
-Pour les nuls
-https://www.freecodecamp.org/news/git-commands
-https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
-https://nvie.com/posts/a-successful-git-branching-model/
-https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
-Visual Git Referance: http://marklodato.github.io/visual-git-guide/index-en.html
-https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/
-https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa
+- Pour les nuls
+- https://www.freecodecamp.org/news/git-commands
+- https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
+- https://nvie.com/posts/a-successful-git-branching-model/
+- https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
+- Visual Git Referance: http://marklodato.github.io/visual-git-guide/index-en.html
+- https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github/
+- https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa
 
 # Practice Git
-https://learngitbranching.js.org/
-Git guide: https://guides.github.com/activities/hello-world/
-Introduction to Github: https://lab.github.com/
-http://git-school.github.io/visualizing-git/
-http://try.github.io/
-https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Add%20your%20public%20key%20to%20GitHub&text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
+
+- https://learngitbranching.js.org/
+- Git guide: https://guides.github.com/activities/hello-world/
+- Introduction to Github: https://lab.github.com/
+- http://git-school.github.io/visualizing-git/
+- http://try.github.io/
+- https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Add%20your%20public%20key%20to%20GitHub&text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
 
 # Mooc Git
 https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github

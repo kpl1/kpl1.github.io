@@ -1,7 +1,14 @@
-# Coucou
+# About me
 
-Topo
+I see myself as a
 
-## About me
+> "Delivery facilitator" (cf: How google test)
 
-> An awesome project.
+or a
+
+> "Quality Advisor"
+
+- Thesis on quality
+- QA Role (quality facilitator)
+- QA vision
+- Skills

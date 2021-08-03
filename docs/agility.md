@@ -1,5 +1,10 @@
 # For Team
 
+## Agitlity
+
+- https://blog.crisp.se/2016/04/04/mattiasskarin/12-seemingly-normal-things-agile-people-do
+- https://martinfowler.com/agile.html
+
 ## Scrum
 
 ## Retro
