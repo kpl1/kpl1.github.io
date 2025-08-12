@@ -16,7 +16,7 @@
 
 - [DearEvilTester](https://leanpub.com/DearEvilTester)
 - [Git ebooks](https://git-scm.com/book/en/v2)
-- Linux comand line
+- Linux comand lie
 - Testing and Quality Assurance for Component based Software
 - Beautiful testing
 - User stories applied
