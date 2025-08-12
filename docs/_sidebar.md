@@ -13,7 +13,7 @@
 
 - QA Technical skill expertise
 
-  - Bug report
+  - Bug report test
   - Tester 2.0
   - Agile Testing
   - Modern Testing
