@@ -19,6 +19,5 @@
 
   - [QA Evangelist](03-resourcesQaEvangelist.md)
   - [Books](03-resourcesBooks.md)
-  - [Mooc & Podcast](03-resourcesMooc.md)
 
 
