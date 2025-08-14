@@ -1,49 +1,21 @@
-- QA publicity
+- Cheat Sheet
 
-  - [QA Evangelist](qaEvangelist.md)
-  - [How they test](howTheyTest.md)
-  - [Books](books.md)
-  - [QA git repo](gitRepo.md)
-  - [Mooc & Podcast](mooc.md)
+  - [Git](01-cheatSheetGit.md)
+  - [Playwright](01-cheatSheetPlaywright.md)
+  - [Grafana](01-cheatSheetGrafana.md)
+  - [Kibana](01-cheatSheetKibana.md)
+  - [Principles](01-cheatSheetPrinciples.md)
 
-- Agility, Pragmatism and Team spirit
+- Today I Learned
 
-  - [Agility](agility.md)
-  - [Process](process.md)
+  - [Agility](02-learnedAgility.md)
+  - [Process](02-learnedProcess.md)
 
-- QA Technical skill expertise
+- Resources
 
-  - Bug report test
-  - Tester 2.0
-  - Agile Testing
-  - Modern Testing
-  - Exploratory testing
-    - Oracle
-    - Heuristic
-  - [Front Test Automation](fronte2eautomation.md)
-  - Api testing
-  - Testability
-  - Monitoring
-    - Observability
-  - DEV OPS
-  - KPI
+  - [QA Evangelist](03-resourcesQaEvangelist.md)
+  - [Books](03-resourcesBooks.md)
+  - [QA git repo](03-resourcesGitRepo.md)
+  - [Mooc & Podcast](03-resourcesMooc.md)
 
-- Miscellaneous
-  - [Environement](env.md)
-    - Linux
-    - Docker
-  - [Text Editor/IDE](ide.md)
-  - [GIT](git.md)
-  - Webb
-    - Fundamentals
-    - DOM
-    - Error
-    - Dev Tool
-  - Language
-    - HTTP
-    - CSS
-    - JAVASCRIPT
-    - Typscript
-  - Recrutement
-    - CV
-    - Interview
+
