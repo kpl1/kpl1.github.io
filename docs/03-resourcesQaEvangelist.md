@@ -9,8 +9,10 @@
 - Brian Marick [Site](http://www.exampler.com/about/)
 
 
-
 # QA event
 - [Agile Testing Days](https://agiletestingdays.com/)
 - [Paris Testing Conf](https://paristestconf.com/)
+
+# QA related repository
+- [Git repo list ](https://github.com/stars/kpl1/lists/qualityassurance)
 

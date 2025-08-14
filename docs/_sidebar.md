@@ -6,6 +6,9 @@
   - [Kibana](01-cheatSheetKibana.md)
   - [Principles](01-cheatSheetPrinciples.md)
 
+- Reflection 
+  - [Vision](02-reflectionVision.md)
+
 - Today I Learned
 
   - [Agility](02-learnedAgility.md)
@@ -15,7 +18,6 @@
 
   - [QA Evangelist](03-resourcesQaEvangelist.md)
   - [Books](03-resourcesBooks.md)
-  - [QA git repo](03-resourcesGitRepo.md)
   - [Mooc & Podcast](03-resourcesMooc.md)
 
 
