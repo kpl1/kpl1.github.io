@@ -4,7 +4,7 @@
 
 ## Selector
 
-blabla
+WIP
 
 ## Page Object Model
 
