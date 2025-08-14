@@ -2,24 +2,15 @@
 
 ---
 
-- `git rebase origin/main branchToRebase/dev` to start rebase
+```json
+- git rebase origin/main branchToRebase/dev 
 - git rebase -i head~13
-- git re#flog
+- git re#flog`
 - git reset --hard a0d3fe6
 - git branch <release-branch-name> <commit-hash>
-- If you want to add specific commit to it use cherry pick : :fr: [https://delicious-insights.com/fr/articles-et-tutos/git-cherry-pick/](https://delicious-insights.com/fr/articles-et-tutos/git-cherry-pick/)
+```
+- If you want to add specific commit to it [git-cherry-pick/](https://delicious-insights.com/fr/articles-et-tutos/git-cherry-pick/)
 
-**command repo**
-
-- npm run format && npm run lint
-- rm -rf node_modules
-- npm run dev
-- npm run hub:install —force
-- npm run lint:fix
-- npm set strict-ssl false
-- npm run test-storybook:docker
-- npm run test-storybook:docker:update
-- node -e 'console.log(process.env)'
 
 ## Merge Main branche to main
 

@@ -8,7 +8,7 @@ blabla
 
 ## Page Object Model
 
-- [https://www.lambdatest.com/learning-hub/playwright-page-object-model](https://www.lambdatest.com/learning-hub/playwright-page-object-model)
+- learn about [playwright-page-object-model](https://www.lambdatest.com/learning-hub/playwright-page-object-model)
 
 ## CI
 
@@ -30,7 +30,18 @@ blabla
  "npx playwright test --grep '(?=.*@P1)(?=.*@P2)'",
  "npx playwright test --trace on"
 ```
-
+**Npm Command**
+``` json
+- npm run format && npm run lint
+- rm -rf node_modules
+- npm run dev
+- npm run hub:install —force
+- npm run lint:fix
+- npm set strict-ssl false
+- npm run test-storybook:docker
+- npm run test-storybook:docker:update
+- node -e 'console.log(process.env)'
+```
 ## Assertion
 
 - version 1.51 `.filter({visible: true})`
