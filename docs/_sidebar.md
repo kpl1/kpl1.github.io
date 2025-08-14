@@ -5,6 +5,7 @@
   - [Grafana](01-cheatSheetGrafana.md)
   - [Kibana](01-cheatSheetKibana.md)
   - [Principles](01-cheatSheetPrinciples.md)
+  - [Heuristics](01-cheatSheetHeuristics.md)
 
 - Reflection 
   - [Vision](02-reflectionVision.md)
