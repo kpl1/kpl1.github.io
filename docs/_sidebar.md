@@ -1,4 +1,3 @@
-* [Home](/ "Qa stuff")
 - Cheat Sheet
 
   - [Git](01-cheatSheetGit.md)
