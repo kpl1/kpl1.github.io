@@ -1,4 +1,7 @@
-# QA Evangelist
+# QA related repository
+- [Git repo list ](https://github.com/stars/kpl1/lists/qualityassurance)
+
+# QA evangelist
 
 - James Bach: [Site](https://www.satisfice.com/blog)
 - Alan page: [Site](https://angryweasel.com/blog/)
@@ -12,7 +15,3 @@
 # QA event
 - [Agile Testing Days](https://agiletestingdays.com/)
 - [Paris Testing Conf](https://paristestconf.com/)
-
-# QA related repository
-- [Git repo list ](https://github.com/stars/kpl1/lists/qualityassurance)
-
