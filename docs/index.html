@@ -3,34 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Kpl1</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     // Enter the URL of your own GitHub Repository in between the two quotes below
-     var gitLinkRepoURL = 'https://github.com/kpl1/kpl1.github.io.git';
-
+     var gitLinkRepoURL = 'https://github.dev/kpl1/kpl1.github.io/tree/master/docs';
     // Customize the text for your Edit this Page on GitHub link between the two quotes below
     var editThisPageLinkText = 'Edit this Page';
 
-    // Set standalone to true to permanently hide the Sidebar and Navbar
-    var standalone = false;
-
-    // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
-    var ToC = false;
-
-    // Set navbar to true trueto permanently override the hiding of the Navbar when displaying as standalone
-    var navbar = false;
-
-    // Set footer to true to permanently show the Footer ('_footer.md)
-    var footer = false;
 
     // Docsify
     window.$docsify = {
+      coverpage: false,
+      loadFooter: false,
       loadSidebar: true,
       subMaxLevel: 2,
       name: 'kpl1',
@@ -52,29 +42,45 @@
           minimumScale: 1,
           maximumScale: 5,
           zoomPannel: true
-      }
+      },
+      plugins: [
+      EditOnGithubPlugin.create(gitLinkRepoURL, null, 'Edit page on GitHub'),
+    ]
+    };
+
+    // Docsify Markmap
+    window.$docsifyMarkmap = {
+      autoLoad: true,
+      autoFit: true,
+      maxWidth: 800,
+      maxHeight: 600,
+      theme: 'dark',
+      markmapOptions: {
+        // Options for markmap
+        // See
   }
   </script>
   <style>
-    :root {
-      --docsifytabs-border-color: #ededed;
-      --docsifytabs-tab-highlight-color: purple;
-    }
+    .markmap {
+    width: 90%;
+    height: 500px; } 
   </style>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-terminal-block@1.0.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <!-- Import Markmap -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <!-- Import Mermaid -->
   <script type="module">
     import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
@@ -82,7 +88,7 @@
     window.mermaid = mermaid;
   </script>
   <!-- Import Docsify-mermaid-zoom -->
-  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
+  <script src="https://unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+  <script src="https://unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
 </body>
 </html>

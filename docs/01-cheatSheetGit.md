@@ -2,17 +2,26 @@
 
 ---
 
-```json
-- git rebase origin/main branchToRebase/dev 
-- git rebase -i head~13
-- git re#flog`
-- git reset --hard a0d3fe6
-- git branch <release-branch-name> <commit-hash>
+```terminal
+# Rebase
+>| git rebase origin/main branchToRebase/dev 
+>| git rebase -i head~13
+
+# Manage reflog information
+>| git reflog
+
+# Reset current HEAD to the specified state
+>| git reset --hard a0d3fe6
+ | List, create, or delete branches
+>| git branch <release-branch-name> <commit-hash>
+
+# Cherry pick
+>| git swith <la-branche>
+>| git cherry-pick -x <commit-1>
 ```
-- If you want to add specific commit to it [git-cherry-pick/](https://delicious-insights.com/fr/articles-et-tutos/git-cherry-pick/)
 
 
-## Merge Main branche to main
+### Merge main branche to main
 
 - Get last updates on main branch 🚨 _If you don’t do that you may lose commits_
   - `git checkout main` to go on main branch
@@ -35,9 +44,9 @@
   - `git push -f` to push updates
     - It will “override” the branch ith new commit ids. If you have a task branch, maybe you’ll need to rebase _yourTaskBranch_ on _yourDevBranch_ with same process. Check commits are not duplicated
 
-### GIT Resources
+### Resources
 
-- Pour les nuls
+- https://comprendre-git.com/fr/commandes/
 - https://www.freecodecamp.org/news/git-commands
 - https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
 - https://nvie.com/posts/a-successful-git-branching-model/
@@ -48,15 +57,14 @@
 
 ### Practice Git
 
-- https://learngitbranching.js.org/
+- [Git reference docs](https://git-scm.com/docs/git)
+-  https://learngitbranching.js.org/
 - Git guide: https://guides.github.com/activities/hello-world/
 - Introduction to Github: https://lab.github.com/
 - http://git-school.github.io/visualizing-git/
 - http://try.github.io/
-- https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Add%20your%20public%20key%20to%20GitHub&text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save.
+- https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html#:~:text=Add%20your%20public%20key%20to%20GitHub&text=Login%20to%20github.com%20and,hit%20Add%20key%20to%20save
 
-### Mooc Git
-https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github
 
 ### Git Sheet
 http://rogerdudler.github.io/git-guide/index.fr.html

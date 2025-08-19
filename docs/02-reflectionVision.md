@@ -6,6 +6,7 @@
 - It's the confidence on a working product delivered in production.
 - Make sure the quality treshold correspond to the expectations of the company.
 
+
 ## What is a QA Engineer ?
 
 - He doesn't participate in code creation for the product, so he doesn't create quality.
@@ -15,25 +16,32 @@
 
 
 
-```mermaid
-graph LR
-    create ---> AutomatedTesting
-    maintain ---> AutomatedTesting
-    testData ---> AutomatedTesting
-    AutomatedTesting <---> AgileTester
-    AgileTester<-->A[fa:fa-spinner ManualTesting]
-    AgileTester<-->B(fa:fa-spinner QualityAssitance)
-    A[fa:fa-spinner ManualTesting] ---> PairTesting
-    A[fa:fa-spinner ManualTesting] --->  Investigation
-    A[fa:fa-spinner ManualTesting] --->  Exploration
-    A[fa:fa-spinner ManualTesting] --->  TestPlanification
-    B[fa:fa-spinner QualityAssitance] ---> MonitoringLogs
-    B[fa:fa-spinner QualityAssitance] ---> AdvocateForQuality
-    B[fa:fa-spinner QualityAssitance] ---> ShareProductKnowledge
-    B[fa:fa-spinner QualityAssitance] ---> EvaluateIssue
-    B[fa:fa-spinner QualityAssitance] ---> Specification
-    B[fa:fa-spinner QualityAssitance] ---> Documentation
+```markmap
+  # QA Tasks
+
+  ## Automated Testing
+
+  - Create, maintain 
+  - Monitoring
+  - Prepare test data
+
+  ## Manual Testing
+
+  - Pair testing
+  - Investigation
+  - Exploration
+  - Test planification
+
+  ## Quality Assitance
+
+  - Monitoring Logs
+  - Advocate For Quality
+  - Share Product Knowledge
+  - Evaluate Issue
+  - Specification
+  - Documentation
 ```
+
 
 
 ## Skills
@@ -67,4 +75,3 @@ The associated skills are:
   - Gather product knowledge
   - Share information with relevant stakeholders
   - Advocate for user-centricity
-

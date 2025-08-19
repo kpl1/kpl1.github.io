@@ -2,7 +2,6 @@
 
 ---
 
-- see official documentation [reference kql ](https://www.elastic.co/docs/reference/query-languages/kql?) 
 
 ## Kibana Query Language (KQL)
 
@@ -50,3 +49,6 @@
 `_exists_:fieldname`
 - To find documents where a field is missing:
 `_missing_:fieldname`
+
+### Resources
+- see official documentation [reference kql ](https://www.elastic.co/docs/reference/query-languages/kql?) 

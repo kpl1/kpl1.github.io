@@ -19,5 +19,3 @@
 
   - [QA resources](03-resourcesQa.md)
   - [Books](03-resourcesBooks.md)
-
-

@@ -4,34 +4,22 @@
 
 
 ## Commands
-**playwright**
 
-```json
-"-------------PLAYWRIGHT-------------",
- "npx playwright test",
- "npx playwright show-report",
- "npx playwright test --project=chromium --debug",
- "npx playwright test --ui",
- "npx playwright test --headed --project=chromium",
-"-------------PLAYWRIGHT_CI-------------",
- "npx playwright test -g @Test"
- "npx playwright test --project=chromium --workers=1 --trace on",
- "npx playwright test --workers=1 --trace on",
- "npx playwright test --grep '@P1'",
- "npx playwright test --grep '(?=.*@P1)(?=.*@P2)'",
- "npx playwright test --trace on"
+
+```terminal
+  $|npx playwright test
+  $|npx playwright show-report
+  $|npx playwright test --project=chromium --debug
+  $|npx playwright test --ui
+  $|npx playwright test --headed --project=chromium
+  $|npx playwright test -g @Test
+  $|npx playwright test --project=chromium --workers=1 --trace on
+  $|npx playwright test --workers=1 --trace on
+  $|npx playwright test --grep '@P1'
+  $|npx playwright test --grep '(?=.*@P1)(?=.*@P2)'
+  $|npx playwright test --trace on
 ```
-**related**
-``` json
-- npm run format && npm run lint
-- rm -rf node_modules
-- npm run dev
-- npm run lint:fix
-- npm set strict-ssl false
-- npm run test-storybook:docker
-- npm run test-storybook:docker:update
-- node -e 'console.log(process.env)'
-```
+
 ## Assertion
 
 - version 1.51 - `.filter({visible: true})`
