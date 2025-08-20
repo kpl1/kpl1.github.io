@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Kpl1</title>
-  <meta content="IE=edge,chrome=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="assets/favicon/favicon.png">
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
@@ -13,13 +15,18 @@
   <script>
     // Docsify
     window.$docsify = {
-      loadSidebar: true,
-      subMaxLevel: 2,
+      // GENERAL SETTINGS
+      // -----------------------------------------------------------------
       name: 'kpl1',
-      repo: 'https://github.dev/kpl1/kpl1.github.io/tree/master/docs',
-      alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-      },
+      repo: 'https://github.com/kpl1/kpl1.github.io/tree/master/docs',
+      // SIDEBAR NAVIGATION
+      // -----------------------------------------------------------------
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 2,
+      auto2top   : true,
+      maxLevel   : 3,
+      // TAB PLUGIN CONFIGURATION
+      // -----------------------------------------------------------------
       tabs: {
         persist: true, // default
         sync: true, // default
@@ -27,29 +34,37 @@
         tabComments: true, // default
         tabHeadings: true // default
       },
-    };
-
+    }
   </script>
   <style>
     .markmap {
     width: 90%;
-    height: 500px; } 
+    height: 600px; } 
   </style>
   <!-- Docsify v4 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Copy Code Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- Search Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <!-- Zoom Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Tab Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- Pagination Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
+  <!-- Terminal Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-terminal-block@1.0.3"></script>
+  <!-- Footer Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <!-- Emoji Plugin -->
+  <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <!-- Import Markmap -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 
   <!-- Import Docsify-mermaid-zoom -->
