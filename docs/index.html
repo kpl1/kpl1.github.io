@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
   />
   <style>
+    .autoFooter {
+    width: 90%;
+    height: 600px; } 
     .markmap {
     width: 90%;
     height: 600px; } 
@@ -22,6 +25,8 @@
 </head>
 <body>
   <div id="app">Loading ...</div>
+  <footer id="mb-footer">
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
   <script>
     // Docsify
@@ -36,6 +41,24 @@
       subMaxLevel: 2,
       auto2top   : true,
       maxLevel   : 3,
+      // Sidebar Footer NAVIGATION
+      // -----------------------------------------------------------------
+      autoFooter: {
+        // the name you wish to display as the copyright holder
+        name:        'Powered by docsify',
+        // the URL (personal or company) which clicking the `name` goes to
+        url:         'https://docsify.js.org/',
+        // the start year of copyright
+        copyYear:    '2025',
+        // show the privacy policy link
+        policy:      false,
+        // show the terms of service link
+        terms:       false,
+        // show the cookies policy link
+        cookies:     false,
+        // use your own css styles or the built in ones
+        customStyle: true,
+        },
       // TAB PLUGIN CONFIGURATION
       // -----------------------------------------------------------------
       tabs: {
@@ -45,6 +68,8 @@
         tabComments: true, // default
         tabHeadings: true // default
       },
+      // Mermaid
+      // -----------------------------------------------------------------
       mermaidConfig: {
         querySelector: ".mermaid"
       }
@@ -70,6 +95,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <!-- Emoji Plugin -->
   <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- Footer sidebar Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-sidebarfooter@latest"></script>
   <!-- Import Markmap -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
