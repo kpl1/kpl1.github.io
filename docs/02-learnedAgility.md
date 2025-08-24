@@ -1,16 +1,16 @@
 # Agility
 ---
 
-- https://blog.crisp.se/2016/04/04/mattiasskarin/12-seemingly-normal-things-agile-people-do
-- https://martinfowler.com/agile.html
+- [2-seemingly-normal-things-agile-people-do](https://blog.crisp.se/2016/04/04/mattiasskarin/12-seemingly-normal-things-agile-people-do)
+- [Agile guide by martin fowler](https://martinfowler.com/agile.html)
 
 
 
 ## Retro
 ---
 
-- https://labs.spotify.com/2017/12/15/spotify-retro-kit/
-- https://retromat.org/en/?id=46-33-69-38-23
+- [Spotify retro kit](https://labs.spotify.com/2017/12/15/spotify-retro-kit/)
+- [Planning a retrospective](https://retromat.org/en/?id=46-33-69-38-23)
 
 
 

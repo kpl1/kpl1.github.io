@@ -26,6 +26,6 @@ The schedule is divided into a number of separate time periods (timeboxes), with
 Shuhari (Kanji: 守破離 Hiragana: しゅはり) is a Japanese martial art concept that describes the stages of learning to mastery.
 ### Resources
 
-- https://www.qualitystreet.fr/2008/06/17/shu-ha-ri/
-- https://blog.octo.com/faciliter-ladoption-de-lagile-grace-au-shu-ha-ri/
-- https://www.qualitystreet.fr/2008/06/17/shu-ha-ri/
+- [Shu-ha-ri](https://www.qualitystreet.fr/2008/06/17/shu-ha-ri/)
+- [Faciliter-ladoption-de-lagile-grace-au-shu-ha-ri](https://blog.octo.com/faciliter-ladoption-de-lagile-grace-au-shu-ha-ri/)
+

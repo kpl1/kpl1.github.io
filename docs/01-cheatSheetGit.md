@@ -1,48 +1,40 @@
 # Git
-
 ---
 
 ```terminal
+# Update
+>| git pull
+>| git push -f
+>| git log
+ |
+# Checkout
+>| git checkout main
+>| git checkout branchToRebase/dev
+ |
 # Rebase
 >| git rebase origin/main branchToRebase/dev 
 >| git rebase -i head~13
-
+>| git rebase —continue
+ |
+# Merge
+>| git merge --abort
+ |
+# Reset
+>| git reset --hard origin/branchToRebase/dev
+ |
 # Manage reflog information
 >| git reflog
-
+ |
 # Reset current HEAD to the specified state
 >| git reset --hard a0d3fe6
  | List, create, or delete branches
 >| git branch <release-branch-name> <commit-hash>
-
+ |
 # Cherry pick
 >| git swith <la-branche>
 >| git cherry-pick -x <commit-1>
 ```
 
-
-### Merge main branche to main
-
-- Get last updates on main branch 🚨 _If you don’t do that you may lose commits_
-  - `git checkout main` to go on main branch
-  - `git pull` to get last commits
-- Get last updates on your branchToRebase/dev 🚨 _If you don’t do that you may lose commits_
-  - `git checkout branchToRebase/dev` to go on the branch
-  - `git pull` to get last commits
-  - If there are merge conflicts ⚠️
-    - It’s possible if the history isn’t the same and commit ids are different for example
-    - `git merge --abort` to stop the merge
-    - `git reset --hard origin/branchToRebase/dev` to reset branch and get remote version
-- Once the 2 branches are up-to-date, you can process the rebase
-  - `git rebase origin/main branchToRebase/dev` to start rebase
-  - if conflicts, go on VS and solve them
-    - then `git rebase —continue` to continue rebase
-  - `git log` to check the history
-    - last commit of main is here
-    - commits of your branch are here
-  - try to build/run tests locally to be sure there are no rebase errors or something else
-  - `git push -f` to push updates
-    - It will “override” the branch ith new commit ids. If you have a task branch, maybe you’ll need to rebase _yourTaskBranch_ on _yourDevBranch_ with same process. Check commits are not duplicated
 
 ### Resources
 
