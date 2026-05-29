@@ -4,9 +4,9 @@ I'm Kevin Caplain, and I'm a QA Engineer.
 
 ## Intro
 
-EN: I've spent over a decade in quality assurance, beginning as a tester in game development. My game design background led to a deeper understanding of how quality impacts user experience, and I'm most engaged with organizations that see quality as a core value, not an afterthought.
+**EN:** I've spent over a decade in quality assurance, beginning as a tester in game development. My game design background led to a deeper understanding of how quality impacts user experience, and I'm most engaged with organizations that see quality as a core value, not an afterthought.
 
-FR: QA Ingénieur issu de la conception de jeux vidéo, je mets mon exigence technique au service de la perfection logicielle depuis 2014. Mon objectif : rejoindre une équipe qui place la qualité au cœur de sa stratégie pour concevoir des produits irréprochables.
+**FR:** QA Ingénieur issu de la conception de jeux vidéo, je mets mon exigence technique au service de la perfection logicielle depuis 2014. Mon objectif : rejoindre une équipe qui place la qualité au cœur de sa stratégie pour concevoir des produits irréprochables.
 
 ## About me
 I am interested in agile testing and I like to play with Test Automation Frameworks.
